@@ -4,6 +4,7 @@
   "description": "",
   "main": "10_fs_sync.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ishumski/node_js_first_tutorial/issues"
   },
-  "homepage": "https://github.com/ishumski/node_js_first_tutorial#readme"
+  "homepage": "https://github.com/ishumski/node_js_first_tutorial#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
